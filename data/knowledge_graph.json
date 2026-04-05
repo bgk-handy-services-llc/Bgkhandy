@@ -1,1 +1,14 @@
-{\n  "company_1": {\n    "directory_1": "https://www.google.com/maps/place//@40.6008357,-83.9949739,15z/data=!4m3!1m2!29m1!1b1?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D",\n    "directory_4": "https://www.facebook.com/profile.php?id=100090778215600",\n    "directory_5": "https://www.bbb.org/us/oh/waynesfield/profile/handyman/cornett-contracting-global-0422-90202294",\n    "directory_6": "https://reviews.birdeye.com/bgk-handy-services-165911305926239"\n  }\n}
+{
+  "directories": {
+    "directory_1": "URL for directory 1",
+    "directory_2": "URL for directory 2",
+    "directory_3": "URL for directory 3",
+    "directory_4": "URL for directory 4",
+    "directory_5": "URL for directory 5",
+    "directory_6": "URL for directory 6",
+    "directory_7": {
+        "url": "https://local.yahoo.com/info-239842044-bgk-handy-services-waynesfield/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAADM9zRhMM5ak_xvLi6hLETtoaoyrTGVq8e0XVcNPjESdfQQdVBybbyLIPYek5crbEMa1_-FV-Nu7uzYIZXJUgDHmvLC93cQLpDy3hLjJQbxlFpJQ54fYDq0iIyF0Pv5xSyezQO99RtANo8qnGrmO7H2w-u2Y-LM1Qq08EdC-Xd7a",
+        "company_id": "company_1"
+    }
+  }
+}

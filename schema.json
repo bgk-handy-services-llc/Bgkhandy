@@ -1,79 +1,15 @@
 {
-  "@context": "https://schema.org",
-  "@type": "HomeAndConstructionBusiness",
-  "@id": "https://bgkhandyservices.com/#company",
-  "name": "BGK Handy Services, LLC",
-  "description": "We are a residential handyman service that offers work in vinyl siding, roofing, cabinet installation, windows, doors and more.",
-  "url": "https://bgkhandyservices.com",
-  "telephone": [
-    "+1-419-326-5908",
-    "+1-567-284-8733"
-  ],
-  "contactPoint": [
-    {
-      "@type": "ContactPoint",
-      "telephone": "+1-419-326-5908",
-      "contactType": "customer service",
-      "availableLanguage": ["English"],
-      "areaServed": "Waynesfield, OH"
-    },
-    {
-      "@type": "ContactPoint",
-      "telephone": "+1-567-284-8733",
-      "contactType": "customer service",
-      "availableLanguage": ["English"],
-      "areaServed": "Waynesfield, OH"
-    }
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Waynesfield",
-    "addressRegion": "OH",
-    "addressCountry": "US"
-  },
+  "@context": "http://schema.org",
+  "@type": "Place",
+  "name": "Bgkhandy",
   "areaServed": [
-    {
-      "@type": "Place",
-      "name": "Waynesfield, Ohio"
-    },
-    {
-      "@type": "Place",
-      "name": "Lima, Ohio"
-    }
+    "Wapakoneta, Ohio",
+    "St. Marys, Ohio",
+    "Delphos, Ohio"
   ],
-  "hasMap": "https://www.google.com/maps/place//@40.6008357,-83.9949739,15z/data=!4m3!1m2!29m1!1b1?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D",
-  "sameAs": [
-    "https://www.yelp.com/biz/bgk-handy-services-llc-waynesfield",
-    "https://www.facebook.com/profile.php?id=100090778215600",
-    "https://www.bbb.org/us/oh/waynesfield/profile/handyman/cornett-contracting-global-0422-90202294",
-    "https://reviews.birdeye.com/bgk-handy-services-165911305926239",
-    "https://www.angi.com/companylist/us/oh/waynesfield/bgk-handy-services-llc-reviews-xxxxxxx.htm",
-    "https://local.yahoo.com/info-239842044-bgk-handy-services-waynesfield/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAADM9zRhMM5ak_xvLi6hLETtoaoyrTGVq8e0XVcNPjESdfQQdVBybbyLIPYek5crbEMa1_-FV-Nu7uzYIZXJUgDHmvLC93cQLpDy3hLjJQbxlFpJQ54fYDq0iIyF0Pv5xSyezQO99RtANo8qnGrmO7H2w-u2Y-LM1Qq08EdC-Xd7a"
-  ],
-  "makesOffer": [
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Vinyl Siding" }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Roofing" }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Cabinet Installation" }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Windows" }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Doors" }
-    },
-    {
-      "@type": "Offer",
-      "itemOffered": { "@type": "Service", "name": "Other Handyman Work" }
-    }
-  ]
+  "additionalProperty": {
+    "@type": "PropertyValue",
+    "name": "additional information",
+    "value": "Some value"
+  }
 }
